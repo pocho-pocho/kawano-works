@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>有限会社伸陽 ⁻ お問い合わせ</title>
+    <meta name="description"
+    content="これはHTMLCSS の課題作品です。">
+<!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;800&family=Philosopher&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+<!-- ファビコン指定 -->
+    <link rel="shortcut icon" type="image/png" href="images/logo.png">
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <div class="contact-image-bg">
+        <header class="page-header wrapper">
+            <a href="index.html" class="home"><img src="images/logoCo.png" alt="会社ロゴ"></a>
+            <h1>お客様に寄り添う地域密着の引越会社です。</h1>
+        </header>
+
+        <!-- メインメニュー -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">ごあいさつ</a></li>
+                <li><a href="plan.html">料金プラン</a></li>
+                <li><a href="qa.html">Q&A</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+        </nav>
+        <h2 class="all-title">お問い合わせ</h2>
+    </div>  
+
+    <!-- 本文 ここから -->
+    <div class="content wrapper">
+        <section>
+            <h2 class="company">入力フォーム</h2>
+            <form action="#">
+                <div class="check">
+                    <label for="mitumori">
+                        <input type="checkbox" id="mitumori" name="form[]" value="見積り"> 見積り
+                    </label>
+                    <label for="soudan">
+                        <input type="checkbox" id="soudan" name="form[]" value="相談"> 引越について相談 
+                    </label>
+                    <label for="other">
+                        <input type="checkbox" id="other" name="form[]" value="その他"> その他
+                    </label>
+                </div>
+                
+                <div>
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="your-name">
+                </div>
+                <div>
+                    <label for="phone">電話番号</label>
+                    <input type="tel" id="phone" name="your-tel">
+                </div>
+                <div>
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="your-email">
+                </div>
+                <div>
+                    <label for="message">お問い合わせ内容</label>
+                    <textarea type="message" id="message" name="message"></textarea>
+                </div>
+        
+                <input type="submit" class="button" value="送信">
+            </form>
+        </section>
+
+        <!-- サイドメニュー -->
+        <aside>
+            <h2 class="company">会社概要</h2>
+            <p>
+                社名：有限会社伸陽
+            </p>
+            <p>
+                店舗名：伸陽引越サービス
+            </p>
+            <p>
+                所在地：大阪府堺市〇〇〇〇1111-11<br>
+            </p>
+            <p>
+                事業内容：運送業
+            </p>
+            <p>
+                TEL：000-000-1111
+            </p>
+            <p>
+                FAX：000-000-1112
+            </p>
+            <div class="location-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.1066533760077!2d135.49376191471762!3d34.702489790631134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e68d95e3a70b%3A0x1baec822e859c84a!2z5aSn6Ziq6aeF!5e0!3m2!1sja!2sjp!4v1655860782036!5m2!1sja!2sjp" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>このマップはダミーです。</p>
+            </div><!-- /.location-map -->
+
+        </aside>
+    </div>
+
+
+<!-- フッター -->
+    <footer>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="index.html">ごあいさつ</a></li>
+                <li><a href="plan.html">料金プラン</a></li>
+                <li><a href="qa.html">Q&A</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+        <div class="small">
+            <p><small>&copy; 2022 Pocho</small></p>
+        </div>
+    </footer>
+</body>
+</html>

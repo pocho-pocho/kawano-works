@@ -1,0 +1,528 @@
+@charset "utf-8";
+
+html {
+    font-size: 100%;
+    max-width: 100%;
+}
+
+body {
+    /* 下記のfont-familyは標準設定でよく使われる */
+    /* font-family: "Yugothic Medium""游ゴシック Medium",
+        YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif; */
+    font-family: "Noto Sans JP";
+    line-height: 1.7;
+    color: rgb(19, 15, 15);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 55px;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: right;
+
+}
+
+/* ここまで共通設定 */
+
+header img {
+    width: 200px;
+}
+
+div img {
+    width: 700px;
+}
+
+.image-bg {
+    background-image: url(../images/bg.jpg);
+}
+
+.plan-image-bg {
+    background-image: url(../images/plan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.qa-image-bg {
+    background-image: url(../images/main_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.contact-image-bg {
+    background-image: url(../images/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.page-header img {
+    width: 300px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+
+.main-pic {
+    text-align: center;
+}
+
+.main-pic img {
+    margin-top: 7px;
+}
+
+/* nav */
+
+.main-nav {
+    padding: 0.5%;
+    padding-top: 0;
+}
+
+.main-nav ul {
+    font-size: 25px;
+    display: flex;
+    list-style: none;
+    margin-right: 1px;
+}
+
+.main-nav ul li {
+    text-align: center;
+    margin-left: 1px;
+    width: 100%;
+}
+
+.main-nav ul a {
+    display: block;
+    padding: 16px 12px;
+    background-color: rgba(127, 217, 210);
+    color: #fff;
+    text-decoration: none;
+    transition: background-color .3s linear;
+}
+
+.main-nav ul a:hover {
+    background-color: rgb(86, 248, 148);
+}
+
+/* main */
+
+section {
+    width: 62%;
+    margin-bottom: 30px;
+}
+
+aside {
+    width: 35%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.sub-title {
+    color: rgb(42, 165, 65);
+    border-bottom: 1px solid rgb(42, 165, 65);
+    width: 90%;
+    margin: 30px 0;
+    padding-left: 20px;
+}
+
+section img {
+    width: 70%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+section P {
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+/* aside */
+
+.company {
+    color: rgb(42, 165, 65);
+    border-bottom: 1px solid rgb(42, 165, 65);
+    width: 90%;
+    margin: 30px 0;
+    padding-left: 20px;
+}
+
+aside p {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(32, 175, 92, .2);
+    width: 88%;
+}
+
+
+/* footer */
+
+footer {
+    font-size: 13px;
+    background-color: rgb(5, 83, 83);
+    color: #fff;
+}
+
+
+.footer-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.footer-nav li {
+    margin-left: 40px;
+    padding-top: 10px;
+}
+
+.footer-nav ul a {
+    padding: 10px 16px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color .2s linear;
+}
+
+.footer-nav ul a:hover {
+    color: rgb(86, 248, 148);
+}
+
+.small {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* plan */
+
+.all-title {
+    color: rgb(23, 110, 66);
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 130px auto 0;
+}
+
+.plan {
+    display: flex;
+    justify-content: center;
+    margin: 50px 10px 0;
+}
+
+.nomal {
+    width: 55%;
+}
+
+.option {
+    width: 40%;
+}
+
+.p-title {
+    color: rgb(42, 165, 65);
+    border-bottom: 1px solid rgb(42, 165, 65);
+    width: 90%;
+
+}
+
+.post-date {
+    background-color: #0bd;
+    border-radius: 50%;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    font-size: 1rem;
+    text-align: center;
+    top: 0;
+    padding-top: 10px;
+}
+
+.post-date2 {
+    background-color: rgb(72, 189, 68);
+    border-radius: 50%;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    font-size: 1rem;
+    text-align: center;
+    top: 0;
+    padding-top: 10px;
+}
+
+.post-date3 {
+    background-color: rgb(238, 142, 31);
+    border-radius: 50%;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    font-size: 0.85rem;
+    text-align: center;
+    top: 0;
+    padding-top: 15px;
+
+}
+
+.post-date4 {
+    background-color: rgb(150, 14, 192);
+    border-radius: 50%;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    font-size: 0.85rem;
+    text-align: center;
+    top: 0;
+    padding-top: 15px;
+
+}
+
+
+.post-date span,
+.post-date2 span,
+.post-date3 span,
+.post-date4 span {
+    font-size: 0.75rem;
+    border-top: 1px rgba(255, 255, 255, .5) solid;
+    padding-top: 4px;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.plan-matome {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.plan-matome p {
+    font-size: 15px;
+}
+
+.only {
+    line-height: 80px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    gap: 10px;
+    margin: 20px 0 20px;
+    font-size: 0.85rem;
+}
+
+.item {
+    text-align: center;
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+}
+
+.kome {
+    font-size: 0.85rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* Q&A */
+
+.Qa-Box {
+    width: 80%;
+    margin: 50px auto;
+    margin-bottom: 100px;
+}
+
+.Qa-Box .Qa {
+    padding: 20px 0;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.Qa-Box .Qa dt,
+.Qa-Box .Qa dd {
+    display: flex;
+    align-items: baseline;
+    margin: 15px 0;
+}
+
+.Qa-Box .Qa dt p {
+    margin: 0;
+    padding-left: 15px;
+    font-weight: bold;
+    width: 100%;
+    display: inline-block;
+}
+
+.Qa-Box .Qa dd {
+    display: none;
+}
+
+.Qa-Box .Qa dd p {
+    margin: 0;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.Qa-Box .Qa:last-of-type {
+    border-bottom: none;
+}
+
+.Qa-Box .Qa dt::before {
+    content: "Q";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: rgba(42, 165, 65, .5);
+    width: 2em;
+    height: 2em;
+}
+
+.Qa-Box .Qa dd::before {
+    content: "A";
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    line-height: 32px;
+    margin-right: 7.5px;
+    color: #fff;
+    background: #d65556;
+    width: 2em;
+    height: 2em;
+}
+
+.qa-title {
+    background-color: rgb(18, 228, 112);
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.accordion_header {
+    cursor: pointer;
+}
+
+span {
+    word-break: break-word;
+}
+
+.answer1 {
+    display: inline-block;
+}
+
+/* form */
+
+form div {
+    margin-bottom: 14px;
+}
+
+label {
+    font-size: 1.125rem;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    display: block;
+}
+
+.check label {
+    display: inline;
+    margin-left: 20px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    background: rgba(197, 245, 242, 0.5);
+    border: 1px rgb(156, 154, 154) solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width: 70%;
+}
+
+textarea {
+    width: 100%;
+    width: 70%;
+    height: 6rem;
+}
+
+.button {
+    font-size: 1.125rem;
+    background-color: rgba(78, 226, 218, 0.5);
+    border-radius: 5px;
+    border: 1px rgb(156, 154, 154) solid;
+    padding: 10px 24px;
+}
+
+@media (max-width: 600px) {
+
+    .home {
+        width: 180px;
+        justify-content: center;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 0.85rem;
+        padding: auto;
+        margin: auto;
+    }
+
+    .page-header {
+        flex-direction: column;
+        text-align: center;
+        font-size: 0.85rem;
+        margin-top: 10px;
+
+    }
+
+    .main-nav {
+        flex-direction: column;
+        font-size: 0.75rem;
+        margin-top: 10px;
+
+    }
+
+    .main-nav li {
+        flex-direction: column;
+        font-size: 0.55rem;
+        justify-content: center;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        padding: auto;
+        margin: auto;
+    }
+
+}
